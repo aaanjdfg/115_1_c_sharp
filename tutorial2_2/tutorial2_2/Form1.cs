@@ -6,5 +6,10 @@ namespace tutorial2_2
         {
             InitializeComponent();
         }
+
+        private void messageButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("¤¤¬î§Ö¼Ö"); 
+        }
     }
 }
