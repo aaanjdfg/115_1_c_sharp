@@ -34,9 +34,9 @@
             // messageButton
             // 
             messageButton.Font = new Font("MV Boli", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            messageButton.Location = new Point(269, 259);
+            messageButton.Location = new Point(172, 95);
             messageButton.Name = "messageButton";
-            messageButton.Size = new Size(215, 96);
+            messageButton.Size = new Size(293, 174);
             messageButton.TabIndex = 0;
             messageButton.Text = "顯示訊息";
             messageButton.UseVisualStyleBackColor = true;
@@ -46,7 +46,7 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(582, 384);
             Controls.Add(messageButton);
             Name = "Form1";
             Text = "Form1";
