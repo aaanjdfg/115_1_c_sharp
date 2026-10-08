@@ -1,0 +1,16 @@
+C:\Users\m303\Desktop\115_1_c_sharp\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.Form1.resources
+C:\Users\m303\Desktop\115_1_c_sharp\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.Properties.Resources.resources
+C:\Users\m303\Desktop\115_1_c_sharp\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\115_1_c_sharp\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m303\Desktop\115_1_c_sharp\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.AssemblyInfoInputs.cache
+C:\Users\m303\Desktop\115_1_c_sharp\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.AssemblyInfo.cs
+C:\Users\m303\Desktop\115_1_c_sharp\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\115_1_c_sharp\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.sourcelink.json
+C:\Users\m303\Desktop\115_1_c_sharp\1151008\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.Form1.resources
+C:\Users\m303\Desktop\115_1_c_sharp\1151008\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.Properties.Resources.resources
+C:\Users\m303\Desktop\115_1_c_sharp\1151008\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.csproj.GenerateResource.cache
+C:\Users\m303\Desktop\115_1_c_sharp\1151008\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m303\Desktop\115_1_c_sharp\1151008\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.AssemblyInfoInputs.cache
+C:\Users\m303\Desktop\115_1_c_sharp\1151008\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.AssemblyInfo.cs
+C:\Users\m303\Desktop\115_1_c_sharp\1151008\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.csproj.CoreCompileInputs.cache
+C:\Users\m303\Desktop\115_1_c_sharp\1151008\TUTARIAL2_5\TUTARIAL2_5\obj\Debug\net8.0-windows\TUTARIAL2_5.sourcelink.json

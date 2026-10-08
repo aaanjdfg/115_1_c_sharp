@@ -1,0 +1,101 @@
+﻿namespace TUTARIAL2_5
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            cardBackpictureBox2 = new PictureBox();
+            cardfacepictureBox1 = new PictureBox();
+            showBackbutton1 = new Button();
+            showFacebutton2 = new Button();
+            ((System.ComponentModel.ISupportInitialize)cardBackpictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)cardfacepictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // cardBackpictureBox2
+            // 
+            cardBackpictureBox2.Image = Properties.Resources.Backface_Blue;
+            cardBackpictureBox2.Location = new Point(74, 35);
+            cardBackpictureBox2.Name = "cardBackpictureBox2";
+            cardBackpictureBox2.Size = new Size(125, 186);
+            cardBackpictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            cardBackpictureBox2.TabIndex = 1;
+            cardBackpictureBox2.TabStop = false;
+            // 
+            // cardfacepictureBox1
+            // 
+            cardfacepictureBox1.Image = Properties.Resources.King_Spades;
+            cardfacepictureBox1.Location = new Point(358, 35);
+            cardfacepictureBox1.Name = "cardfacepictureBox1";
+            cardfacepictureBox1.Size = new Size(125, 186);
+            cardfacepictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            cardfacepictureBox1.TabIndex = 2;
+            cardfacepictureBox1.TabStop = false;
+            cardfacepictureBox1.Visible = false;
+            // 
+            // showBackbutton1
+            // 
+            showBackbutton1.Location = new Point(74, 315);
+            showBackbutton1.Name = "showBackbutton1";
+            showBackbutton1.Size = new Size(125, 34);
+            showBackbutton1.TabIndex = 3;
+            showBackbutton1.Text = "顯示背面";
+            showBackbutton1.UseVisualStyleBackColor = true;
+            // 
+            // showFacebutton2
+            // 
+            showFacebutton2.Location = new Point(358, 315);
+            showFacebutton2.Name = "showFacebutton2";
+            showFacebutton2.Size = new Size(125, 34);
+            showFacebutton2.TabIndex = 4;
+            showFacebutton2.Text = "顯示正面";
+            showFacebutton2.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(11F, 23F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(showFacebutton2);
+            Controls.Add(showBackbutton1);
+            Controls.Add(cardfacepictureBox1);
+            Controls.Add(cardBackpictureBox2);
+            Name = "Form1";
+            Text = "撲克牌展示";
+            ((System.ComponentModel.ISupportInitialize)cardBackpictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)cardfacepictureBox1).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private PictureBox cardBackpictureBox2;
+        private PictureBox cardfacepictureBox1;
+        private Button showBackbutton1;
+        private Button showFacebutton2;
+    }
+}

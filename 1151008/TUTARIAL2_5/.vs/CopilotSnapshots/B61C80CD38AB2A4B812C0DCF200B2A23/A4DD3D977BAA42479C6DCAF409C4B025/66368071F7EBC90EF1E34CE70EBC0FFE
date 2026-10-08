@@ -1,0 +1,9 @@
+﻿namespace TUTARIAL2_5
+namespace TUTARIAL2_5
+{
+    public partial class Form1 : Form
+    {
+        // Constructor removed from this partial class to avoid duplicate definition.
+        // The constructor is defined in another partial file (tutorial2_5.cs).
+    }
+}
