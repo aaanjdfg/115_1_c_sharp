@@ -1,0 +1,517 @@
+﻿15 matches found: 
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter3\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter3/Tutorial 3-4/Test Average/Test Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the input and output controls.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chap3\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chap3/Tutorial 3-4/Test Average/Test Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the input and output controls.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter 05\Tutorial 5-1\Ending Balance\Ending Balance\Form1.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter 05/Tutorial 5-1/Ending Balance/Ending Balance/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Ending_Balance
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // 清除 TextBoxes 和 endingBalanceLabel 控制項的內容。
+            startingBalTextBox.Text = "";
+            monthsTextBox.Text = "";
+            endingBalanceLabel.Text = "";
+
+            // 重設焦點。
+            startingBalTextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // 關閉表單。
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter 05\Tutorial 5-2\Ending Balance\Ending Balance\Form1.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter 05/Tutorial 5-2/Ending Balance/Ending Balance/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Ending_Balance
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the TextBoxes, the endingBalanceLabel control,
+            // and the ListBox.
+            startingBalTextBox.Text = "";
+            monthsTextBox.Text = "";
+            endingBalanceLabel.Text = "";
+            detailListBox.Items.Clear();
+
+            // Reset the focus.
+            startingBalTextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter 4\Tutorial 4-1\Test Score Average\Form1.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter 4/Tutorial 4-1/Test Score Average/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Test_Score_Average
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            // Clear the TextBoxes and the averageLabel control.
+            test1TextBox.Text = "";
+            test2TextBox.Text = "";
+            test3TextBox.Text = "";
+            averageLabel.Text = "";
+
+            // Reset the focus to test1.
+            test1TextBox.Focus();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter 4\Tutorial 4-6\Time Zone\Form1.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter 4/Tutorial 4-6/Time Zone/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Time_Zone
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void okButton_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter 05\Tutorial 5-7\Total Sales\Total Sales\Form1.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter 05/Tutorial 5-7/Total Sales/Total Sales/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+
+namespace Total_Sales
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            // 計算按鈕點擊事件處理
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // 關閉表單
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1151015\Tutorial 3-2\Fuel Economy\Fuel Economy\Form1.cs>
+    File: `1151015/Tutorial 3-2/Fuel Economy/Fuel Economy/Form1.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Fuel_Economy
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Close the form.
+            this.Close();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter3\Tutorial 3-5\Change Counter\Change Counter\Program.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter3/Tutorial 3-5/Change Counter/Change Counter/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Change_Counter
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter3\Tutorial 3-5\Change Counter\Change Counter\Program.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter3/Tutorial 3-5/Change Counter/Change Counter/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Change_Counter
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\1151022\Tutorial 3-4\Test Average\Test Average\Form1.cs>
+    // Lines 78 to 88
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chap3\Tutorial 3-5\Change Counter\Change Counter\Program.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chap3/Tutorial 3-5/Change Counter/Change Counter/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Change_Counter
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter 05\Tutorial 5-5\Friend File\Friend File\Program.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter 05/Tutorial 5-5/Friend File/Friend File/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Friend_File
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter 05\Tutorial 5-1\Ending Balance\Ending Balance\Program.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter 05/Tutorial 5-1/Ending Balance/Ending Balance/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Ending_Balance
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\m303\Desktop\115_1_c_sharp\115_1_C_Sharp_Tutorial-main\Chapter 05\Tutorial 5-4\Friend File\Friend File\Program.cs>
+    File: `115_1_C_Sharp_Tutorial-main/Chapter 05/Tutorial 5-4/Friend File/Friend File/Program.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace Friend_File
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+        }
+    }
+}
+
+```
+</match>

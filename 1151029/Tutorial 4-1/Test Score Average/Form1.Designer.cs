@@ -17,6 +17,7 @@
             {
                 components.Dispose();
             }
+
             base.Dispose(disposing);
         }
 
@@ -53,120 +54,135 @@
             this.testScoreGroupBox.Controls.Add(this.test3TextBox);
             this.testScoreGroupBox.Controls.Add(this.test2TextBox);
             this.testScoreGroupBox.Controls.Add(this.test1TextBox);
-            this.testScoreGroupBox.Location = new System.Drawing.Point(12, 12);
+            this.testScoreGroupBox.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.testScoreGroupBox.Location = new System.Drawing.Point(24, 24);
             this.testScoreGroupBox.Name = "testScoreGroupBox";
-            this.testScoreGroupBox.Size = new System.Drawing.Size(260, 157);
+            this.testScoreGroupBox.Size = new System.Drawing.Size(650, 310);
             this.testScoreGroupBox.TabIndex = 0;
             this.testScoreGroupBox.TabStop = false;
-            this.testScoreGroupBox.Text = "Enter Three Test Scores";
+            this.testScoreGroupBox.Text = "請輸入三個測驗分數";
             // 
             // outputDescriptionLabel
             // 
             this.outputDescriptionLabel.AutoSize = true;
-            this.outputDescriptionLabel.Location = new System.Drawing.Point(66, 121);
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(70, 235);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
-            this.outputDescriptionLabel.Size = new System.Drawing.Size(47, 13);
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(164, 45);
             this.outputDescriptionLabel.TabIndex = 7;
-            this.outputDescriptionLabel.Text = "Average";
+            this.outputDescriptionLabel.Text = "平均分數";
             // 
             // averageLabel
             // 
             this.averageLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.averageLabel.Location = new System.Drawing.Point(122, 116);
+            this.averageLabel.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.averageLabel.Location = new System.Drawing.Point(300, 230);
             this.averageLabel.Name = "averageLabel";
-            this.averageLabel.Size = new System.Drawing.Size(100, 23);
+            this.averageLabel.Size = new System.Drawing.Size(300, 50);
             this.averageLabel.TabIndex = 6;
             this.averageLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.averageLabel.Click += new System.EventHandler(this.averageLabel_Click);
             // 
             // test3promptLabel
             // 
             this.test3promptLabel.AutoSize = true;
-            this.test3promptLabel.Location = new System.Drawing.Point(38, 88);
+            this.test3promptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.test3promptLabel.Location = new System.Drawing.Point(70, 165);
             this.test3promptLabel.Name = "test3promptLabel";
-            this.test3promptLabel.Size = new System.Drawing.Size(75, 13);
+            this.test3promptLabel.Size = new System.Drawing.Size(217, 45);
             this.test3promptLabel.TabIndex = 5;
-            this.test3promptLabel.Text = "Test Score #3";
+            this.test3promptLabel.Text = "測驗分數 #3";
             // 
             // test2promptLabel
             // 
             this.test2promptLabel.AutoSize = true;
-            this.test2promptLabel.Location = new System.Drawing.Point(38, 58);
+            this.test2promptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.test2promptLabel.Location = new System.Drawing.Point(70, 105);
             this.test2promptLabel.Name = "test2promptLabel";
-            this.test2promptLabel.Size = new System.Drawing.Size(75, 13);
+            this.test2promptLabel.Size = new System.Drawing.Size(217, 45);
             this.test2promptLabel.TabIndex = 4;
-            this.test2promptLabel.Text = "Test Score #2";
+            this.test2promptLabel.Text = "測驗分數 #2";
             // 
             // test1promptLabel
             // 
             this.test1promptLabel.AutoSize = true;
-            this.test1promptLabel.Location = new System.Drawing.Point(38, 30);
+            this.test1promptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.test1promptLabel.Location = new System.Drawing.Point(70, 45);
             this.test1promptLabel.Name = "test1promptLabel";
-            this.test1promptLabel.Size = new System.Drawing.Size(75, 13);
+            this.test1promptLabel.Size = new System.Drawing.Size(217, 45);
             this.test1promptLabel.TabIndex = 3;
-            this.test1promptLabel.Text = "Test Score #1";
+            this.test1promptLabel.Text = "測驗分數 #1";
             // 
             // test3TextBox
             // 
-            this.test3TextBox.Location = new System.Drawing.Point(122, 84);
+            this.test3TextBox.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.test3TextBox.Location = new System.Drawing.Point(300, 160);
             this.test3TextBox.Name = "test3TextBox";
-            this.test3TextBox.Size = new System.Drawing.Size(100, 20);
+            this.test3TextBox.Size = new System.Drawing.Size(230, 55);
             this.test3TextBox.TabIndex = 2;
             // 
             // test2TextBox
             // 
-            this.test2TextBox.Location = new System.Drawing.Point(122, 54);
+            this.test2TextBox.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.test2TextBox.Location = new System.Drawing.Point(300, 100);
             this.test2TextBox.Name = "test2TextBox";
-            this.test2TextBox.Size = new System.Drawing.Size(100, 20);
+            this.test2TextBox.Size = new System.Drawing.Size(230, 55);
             this.test2TextBox.TabIndex = 1;
             // 
             // test1TextBox
             // 
-            this.test1TextBox.Location = new System.Drawing.Point(122, 26);
+            this.test1TextBox.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.test1TextBox.Location = new System.Drawing.Point(300, 40);
             this.test1TextBox.Name = "test1TextBox";
-            this.test1TextBox.Size = new System.Drawing.Size(100, 20);
+            this.test1TextBox.Size = new System.Drawing.Size(230, 55);
             this.test1TextBox.TabIndex = 0;
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(64, 175);
+            this.calculateButton.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.calculateButton.Location = new System.Drawing.Point(24, 365);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(75, 52);
+            this.calculateButton.Size = new System.Drawing.Size(260, 65);
             this.calculateButton.TabIndex = 1;
-            this.calculateButton.Text = "Calculate Average";
+            this.calculateButton.Text = "計算平均分數";
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(145, 175);
+            this.clearButton.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.clearButton.Location = new System.Drawing.Point(310, 365);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(75, 23);
+            this.clearButton.Size = new System.Drawing.Size(160, 65);
             this.clearButton.TabIndex = 2;
-            this.clearButton.Text = "Clear";
+            this.clearButton.Text = "清除";
             this.clearButton.UseVisualStyleBackColor = true;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(145, 204);
+            this.exitButton.Font = new System.Drawing.Font("微軟正黑體", 18F);
+            this.exitButton.Location = new System.Drawing.Point(496, 365);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.Size = new System.Drawing.Size(178, 65);
             this.exitButton.TabIndex = 3;
-            this.exitButton.Text = "Exit";
+            this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 45F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 240);
+            this.ClientSize = new System.Drawing.Size(700, 460);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.calculateButton);
             this.Controls.Add(this.testScoreGroupBox);
+            this.Font = new System.Drawing.Font("微軟正黑體", 18F);
             this.Name = "Form1";
-            this.Text = "Test Score Average";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "測驗分數平均值";
             this.testScoreGroupBox.ResumeLayout(false);
             this.testScoreGroupBox.PerformLayout();
             this.ResumeLayout(false);
