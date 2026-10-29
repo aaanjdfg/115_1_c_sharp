@@ -51,9 +51,17 @@ namespace Test_Score_Average
 
                 if (average > passingScore)
                 {
-                    MessageBox.Show("平均分數達及格門檻！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show("平均分數達及格門檻！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     // 顯示訊息框，提示使用者平均分數超過 95 分。
                     //MessageBox.Show("平均分數達高分門檻！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if(average >= 95.0)
+                    {
+                        MessageBox.Show("平均分數達高分門檻！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("平均分數達及格門檻！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
                 else
                 {

@@ -17,6 +17,7 @@
             {
                 components.Dispose();
             }
+
             base.Dispose(disposing);
         }
 
@@ -41,88 +42,99 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(171, 111);
+            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.exitButton.Location = new System.Drawing.Point(468, 184);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 35);
+            this.exitButton.Size = new System.Drawing.Size(120, 48);
             this.exitButton.TabIndex = 26;
-            this.exitButton.Text = "Exit";
+            this.exitButton.Text = "離開";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // clearButton
             // 
-            this.clearButton.Location = new System.Drawing.Point(90, 111);
+            this.clearButton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.clearButton.Location = new System.Drawing.Point(328, 184);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(75, 35);
+            this.clearButton.Size = new System.Drawing.Size(120, 48);
             this.clearButton.TabIndex = 25;
-            this.clearButton.Text = "Clear";
+            this.clearButton.Text = "清除";
             this.clearButton.UseVisualStyleBackColor = true;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // calculateButton
             // 
-            this.calculateButton.Location = new System.Drawing.Point(9, 111);
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.calculateButton.Location = new System.Drawing.Point(40, 184);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(75, 35);
+            this.calculateButton.Size = new System.Drawing.Size(260, 48);
             this.calculateButton.TabIndex = 24;
-            this.calculateButton.Text = "Calculate Gross Pay";
+            this.calculateButton.Text = "計算總薪資";
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // grossPayLabel
             // 
             this.grossPayLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.grossPayLabel.Location = new System.Drawing.Point(121, 75);
+            this.grossPayLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.grossPayLabel.Location = new System.Drawing.Point(300, 131);
             this.grossPayLabel.Name = "grossPayLabel";
-            this.grossPayLabel.Size = new System.Drawing.Size(100, 23);
+            this.grossPayLabel.Size = new System.Drawing.Size(288, 40);
             this.grossPayLabel.TabIndex = 23;
+            this.grossPayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // outputDescriptionLabel
             // 
             this.outputDescriptionLabel.AutoSize = true;
-            this.outputDescriptionLabel.Location = new System.Drawing.Point(58, 80);
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(40, 128);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
-            this.outputDescriptionLabel.Size = new System.Drawing.Size(57, 13);
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(164, 46);
             this.outputDescriptionLabel.TabIndex = 22;
-            this.outputDescriptionLabel.Text = "Gross pay:";
+            this.outputDescriptionLabel.Text = "總薪資：";
             // 
             // hourlyPayRateTextBox
             // 
-            this.hourlyPayRateTextBox.Location = new System.Drawing.Point(121, 45);
+            this.hourlyPayRateTextBox.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.hourlyPayRateTextBox.Location = new System.Drawing.Point(300, 80);
             this.hourlyPayRateTextBox.Name = "hourlyPayRateTextBox";
-            this.hourlyPayRateTextBox.Size = new System.Drawing.Size(100, 20);
+            this.hourlyPayRateTextBox.Size = new System.Drawing.Size(288, 53);
             this.hourlyPayRateTextBox.TabIndex = 21;
             // 
             // hoursWorkedTextBox
             // 
-            this.hoursWorkedTextBox.Location = new System.Drawing.Point(121, 15);
+            this.hoursWorkedTextBox.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.hoursWorkedTextBox.Location = new System.Drawing.Point(300, 28);
             this.hoursWorkedTextBox.Name = "hoursWorkedTextBox";
-            this.hoursWorkedTextBox.Size = new System.Drawing.Size(100, 20);
+            this.hoursWorkedTextBox.Size = new System.Drawing.Size(288, 53);
             this.hoursWorkedTextBox.TabIndex = 20;
+            this.hoursWorkedTextBox.TextChanged += new System.EventHandler(this.hoursWorkedTextBox_TextChanged);
             // 
             // hourlyPayRatePromptLabel
             // 
             this.hourlyPayRatePromptLabel.AutoSize = true;
-            this.hourlyPayRatePromptLabel.Location = new System.Drawing.Point(34, 49);
+            this.hourlyPayRatePromptLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.hourlyPayRatePromptLabel.Location = new System.Drawing.Point(40, 80);
             this.hourlyPayRatePromptLabel.Name = "hourlyPayRatePromptLabel";
-            this.hourlyPayRatePromptLabel.Size = new System.Drawing.Size(81, 13);
+            this.hourlyPayRatePromptLabel.Size = new System.Drawing.Size(236, 46);
             this.hourlyPayRatePromptLabel.TabIndex = 19;
-            this.hourlyPayRatePromptLabel.Text = "Hourly pay rate:";
+            this.hourlyPayRatePromptLabel.Text = "每小時薪資：";
             // 
             // hoursWorkedPromptLabel
             // 
             this.hoursWorkedPromptLabel.AutoSize = true;
-            this.hoursWorkedPromptLabel.Location = new System.Drawing.Point(39, 18);
+            this.hoursWorkedPromptLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
+            this.hoursWorkedPromptLabel.Location = new System.Drawing.Point(40, 32);
             this.hoursWorkedPromptLabel.Name = "hoursWorkedPromptLabel";
-            this.hoursWorkedPromptLabel.Size = new System.Drawing.Size(76, 13);
+            this.hoursWorkedPromptLabel.Size = new System.Drawing.Size(200, 46);
             this.hoursWorkedPromptLabel.TabIndex = 18;
-            this.hoursWorkedPromptLabel.Text = "Hours worked:";
+            this.hoursWorkedPromptLabel.Text = "工作時數：";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 46F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(255, 160);
+            this.ClientSize = new System.Drawing.Size(628, 270);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.calculateButton);
@@ -132,8 +144,9 @@
             this.Controls.Add(this.hoursWorkedTextBox);
             this.Controls.Add(this.hourlyPayRatePromptLabel);
             this.Controls.Add(this.hoursWorkedPromptLabel);
+            this.Font = new System.Drawing.Font("Microsoft JhengHei UI", 18F);
             this.Name = "Form1";
-            this.Text = "Payroll with Overtime";
+            this.Text = "加班薪資計算";
             this.ResumeLayout(false);
             this.PerformLayout();
 
