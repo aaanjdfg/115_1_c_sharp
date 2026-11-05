@@ -57,59 +57,37 @@ namespace Test_Score_Average
                 {
                     if (average >= 80.0)
                     {
-                        if
-                            (average >= 90.0)
-                            {
-                                grade = "A";
-                            }
-                            else
-                            {
-                                grade = "B";
+                        if (average >= 90.0)
+                        {
+                            grade = "A";
                         }
-                        
+                        else
+                        {
+                            grade = "B";
+                        }
                     }
-                }
-                else
-                {
-                    if (average >= 70)
+                    else if (average >= 70.0)
                     {
                         grade = "C";
                     }
                     else
-                    {  grade = "D"; }
-
-
-                       
+                    {
+                        grade = "D";
+                    }
                 }
+                else
+                {
+                    grade = "F";
+                }
+
+                // 顯示等級（假設有 gradeLabel 控制項）
+                gradeLabel.Text = grade;
             }
-            else
+            catch (FormatException)
             {
-                grade = "F";
-            
+                MessageBox.Show("請輸入有效的數字分數。", "輸入錯誤");
             }
         }
-                     // if (average >= 90.0)
-              //  {
-              //      grade = "A";
-              //  }
-              //  else if (average >= 80 && average < 90)
-              //  {
-                //    grade = "B";
-               // }
-               // else if (average >= 70 && average < 80)
-                //{
-                //    grade = "C";
-               // }
-               // else if (average >= 60 && average < 70)
-               // {
-               //     grade = "D";
-               // }
-               // else
-              //  {
-              //      grade = "F";
-              //  }
-
-
 
         /// <summary>
         /// 清除所有輸入內容及平均分數。
