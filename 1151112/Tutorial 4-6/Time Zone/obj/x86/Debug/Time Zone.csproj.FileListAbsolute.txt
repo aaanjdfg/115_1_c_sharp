@@ -39,3 +39,4 @@ C:\Users\m303\Desktop\115_1_c_sharp\1151112\Tutorial 4-6\Time Zone\obj\x86\Debug
 C:\Users\m303\Desktop\115_1_c_sharp\1151112\Tutorial 4-6\Time Zone\obj\x86\Debug\Time Zone.csproj.CoreCompileInputs.cache
 C:\Users\m303\Desktop\115_1_c_sharp\1151112\Tutorial 4-6\Time Zone\obj\x86\Debug\Time Zone.exe
 C:\Users\m303\Desktop\115_1_c_sharp\1151112\Tutorial 4-6\Time Zone\obj\x86\Debug\Time Zone.pdb
+C:\Users\m303\Desktop\115_1_c_sharp\1151112\Tutorial 4-6\Time Zone\obj\x86\Debug\Time Zone.exe.config

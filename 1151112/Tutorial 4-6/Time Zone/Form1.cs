@@ -27,34 +27,46 @@ namespace Time_Zone
         /// <param name="e">事件資料。</param>
         private void okButton_Click(object sender, EventArgs e)
         {
-            // 取得使用者選取的城市。
-            string selectedCity = cityListBox.SelectedItem?.ToString();
-
-            // 如果沒有選取城市，則顯示提醒訊息。
-            if (string.IsNullOrEmpty(selectedCity))
+            string city;
+            if (cityListBox.SelectedIndex != -1)
             {
-                MessageBox.Show(
-                    "請先選擇一個城市。",
-                    "提示",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information);
-
-                return;
+                city= cityListBox.SelectedItem.ToString();
+            
+                switch (city)
+                {
+                    case"丹佛":
+                        timeZoneLabel.Text = "山區時間";
+                        break;  
+                    case"檀香山":
+                        timeZoneLabel.Text = "夏威夷時間";
+                        break;
+                    case"明尼阿波利斯":
+                        timeZoneLabel.Text = "中部時間";
+                        break;
+                    case"紐約":
+                        timeZoneLabel.Text = "東部時間";
+                        break;
+                    case"舊金山":
+                        timeZoneLabel.Text = "太平洋時間";
+                        break;
+                }
             }
-
-            // 顯示所選城市的時區資訊。
-            timeZoneLabel.Text = $"{selectedCity}的時區";
+            else
+            {
+                MessageBox.Show("請選擇一個城市。", "錯誤", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
-        /// <summary>
-        /// 按下「離開」按鈕時關閉表單。
-        /// </summary>
-        /// <param name="sender">觸發事件的控制項。</param>
-        /// <param name="e">事件資料。</param>
+
         private void exitButton_Click(object sender, EventArgs e)
         {
             // 關閉目前的表單。
             Close();
+        }
+
+        private void outputDescriptionLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
